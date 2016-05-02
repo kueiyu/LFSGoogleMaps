@@ -1,0 +1,6 @@
+framework module Pods_LFSGoogleMaps {
+  umbrella header "Pods-LFSGoogleMaps-umbrella.h"
+
+  export *
+  module * { export * }
+}

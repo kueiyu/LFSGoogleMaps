@@ -14,6 +14,9 @@
 		0E6B6D021CD764EF0037DBC5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0E6B6D001CD764EF0037DBC5 /* LaunchScreen.storyboard */; };
 		0E6B6D0D1CD764EF0037DBC5 /* LFSGoogleMapsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E6B6D0C1CD764EF0037DBC5 /* LFSGoogleMapsTests.swift */; };
 		0E6B6D181CD764EF0037DBC5 /* LFSGoogleMapsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E6B6D171CD764EF0037DBC5 /* LFSGoogleMapsUITests.swift */; };
+		1B40CC02C160AEA708D1904E /* Pods_LFSGoogleMaps.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 394C580EA92E4B1BA061B056 /* Pods_LFSGoogleMaps.framework */; };
+		73C163758A934953EFB71C34 /* Pods_LFSGoogleMapsTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2498B4E3EEB6D367A3020E31 /* Pods_LFSGoogleMapsTests.framework */; };
+		AC4269AA6F6DDDFFA6F6B356 /* Pods_LFSGoogleMapsUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45AA7B7DCD39E80EB590AC32 /* Pods_LFSGoogleMapsUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +50,15 @@
 		0E6B6D131CD764EF0037DBC5 /* LFSGoogleMapsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LFSGoogleMapsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0E6B6D171CD764EF0037DBC5 /* LFSGoogleMapsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LFSGoogleMapsUITests.swift; sourceTree = "<group>"; };
 		0E6B6D191CD764EF0037DBC5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2498B4E3EEB6D367A3020E31 /* Pods_LFSGoogleMapsTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LFSGoogleMapsTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		394C580EA92E4B1BA061B056 /* Pods_LFSGoogleMaps.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LFSGoogleMaps.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		45AA7B7DCD39E80EB590AC32 /* Pods_LFSGoogleMapsUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LFSGoogleMapsUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		74404E6DFEFECD6922E7F447 /* Pods-LFSGoogleMapsTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LFSGoogleMapsTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-LFSGoogleMapsTests/Pods-LFSGoogleMapsTests.release.xcconfig"; sourceTree = "<group>"; };
+		7A8FDFC11EE783B81196C121 /* Pods-LFSGoogleMapsTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LFSGoogleMapsTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LFSGoogleMapsTests/Pods-LFSGoogleMapsTests.debug.xcconfig"; sourceTree = "<group>"; };
+		9F86A41AC8714D6884DD75B8 /* Pods-LFSGoogleMaps.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LFSGoogleMaps.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LFSGoogleMaps/Pods-LFSGoogleMaps.debug.xcconfig"; sourceTree = "<group>"; };
+		C20877A9C49F2911818133C5 /* Pods-LFSGoogleMaps.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LFSGoogleMaps.release.xcconfig"; path = "Pods/Target Support Files/Pods-LFSGoogleMaps/Pods-LFSGoogleMaps.release.xcconfig"; sourceTree = "<group>"; };
+		D6676A216FE865EA003019C2 /* Pods-LFSGoogleMapsUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LFSGoogleMapsUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LFSGoogleMapsUITests/Pods-LFSGoogleMapsUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		F25B385F82B26365C14A0B30 /* Pods-LFSGoogleMapsUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LFSGoogleMapsUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-LFSGoogleMapsUITests/Pods-LFSGoogleMapsUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1B40CC02C160AEA708D1904E /* Pods_LFSGoogleMaps.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				73C163758A934953EFB71C34 /* Pods_LFSGoogleMapsTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,6 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AC4269AA6F6DDDFFA6F6B356 /* Pods_LFSGoogleMapsUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +96,8 @@
 				0E6B6D0B1CD764EF0037DBC5 /* LFSGoogleMapsTests */,
 				0E6B6D161CD764EF0037DBC5 /* LFSGoogleMapsUITests */,
 				0E6B6CF51CD764EE0037DBC5 /* Products */,
+				5E90399E62E420590DDFB6CF /* Pods */,
+				952EB4F37E51A74501FCAAAE /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -125,6 +142,29 @@
 			path = LFSGoogleMapsUITests;
 			sourceTree = "<group>";
 		};
+		5E90399E62E420590DDFB6CF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9F86A41AC8714D6884DD75B8 /* Pods-LFSGoogleMaps.debug.xcconfig */,
+				C20877A9C49F2911818133C5 /* Pods-LFSGoogleMaps.release.xcconfig */,
+				7A8FDFC11EE783B81196C121 /* Pods-LFSGoogleMapsTests.debug.xcconfig */,
+				74404E6DFEFECD6922E7F447 /* Pods-LFSGoogleMapsTests.release.xcconfig */,
+				D6676A216FE865EA003019C2 /* Pods-LFSGoogleMapsUITests.debug.xcconfig */,
+				F25B385F82B26365C14A0B30 /* Pods-LFSGoogleMapsUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		952EB4F37E51A74501FCAAAE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				394C580EA92E4B1BA061B056 /* Pods_LFSGoogleMaps.framework */,
+				2498B4E3EEB6D367A3020E31 /* Pods_LFSGoogleMapsTests.framework */,
+				45AA7B7DCD39E80EB590AC32 /* Pods_LFSGoogleMapsUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +172,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0E6B6D1C1CD764EF0037DBC5 /* Build configuration list for PBXNativeTarget "LFSGoogleMaps" */;
 			buildPhases = (
+				AA619CF3E5C7A5349507FE0F /* 📦 Check Pods Manifest.lock */,
 				0E6B6CF01CD764EE0037DBC5 /* Sources */,
 				0E6B6CF11CD764EE0037DBC5 /* Frameworks */,
 				0E6B6CF21CD764EE0037DBC5 /* Resources */,
+				33716ACDA645676FF505188D /* 📦 Embed Pods Frameworks */,
+				C79EA21C6E25A24362D8C1E9 /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,9 +192,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0E6B6D1F1CD764EF0037DBC5 /* Build configuration list for PBXNativeTarget "LFSGoogleMapsTests" */;
 			buildPhases = (
+				4062FF22069C6EAE233C007C /* 📦 Check Pods Manifest.lock */,
 				0E6B6D041CD764EF0037DBC5 /* Sources */,
 				0E6B6D051CD764EF0037DBC5 /* Frameworks */,
 				0E6B6D061CD764EF0037DBC5 /* Resources */,
+				963BF09DF6D086160A3D122A /* 📦 Embed Pods Frameworks */,
+				452B4DC79877324BC4C72C2B /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +213,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0E6B6D221CD764EF0037DBC5 /* Build configuration list for PBXNativeTarget "LFSGoogleMapsUITests" */;
 			buildPhases = (
+				4D8FD8924A510D31E793B7C8 /* 📦 Check Pods Manifest.lock */,
 				0E6B6D0F1CD764EF0037DBC5 /* Sources */,
 				0E6B6D101CD764EF0037DBC5 /* Frameworks */,
 				0E6B6D111CD764EF0037DBC5 /* Resources */,
+				76505871AA584947BCDCC787 /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -250,6 +298,129 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		33716ACDA645676FF505188D /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LFSGoogleMaps/Pods-LFSGoogleMaps-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4062FF22069C6EAE233C007C /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		452B4DC79877324BC4C72C2B /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LFSGoogleMapsTests/Pods-LFSGoogleMapsTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4D8FD8924A510D31E793B7C8 /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		76505871AA584947BCDCC787 /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LFSGoogleMapsUITests/Pods-LFSGoogleMapsUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		963BF09DF6D086160A3D122A /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LFSGoogleMapsTests/Pods-LFSGoogleMapsTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AA619CF3E5C7A5349507FE0F /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C79EA21C6E25A24362D8C1E9 /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LFSGoogleMaps/Pods-LFSGoogleMaps-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		0E6B6CF01CD764EE0037DBC5 /* Sources */ = {
@@ -399,6 +570,7 @@
 		};
 		0E6B6D1D1CD764EF0037DBC5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9F86A41AC8714D6884DD75B8 /* Pods-LFSGoogleMaps.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = LFSGoogleMaps/Info.plist;
@@ -410,6 +582,7 @@
 		};
 		0E6B6D1E1CD764EF0037DBC5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C20877A9C49F2911818133C5 /* Pods-LFSGoogleMaps.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = LFSGoogleMaps/Info.plist;
@@ -421,6 +594,7 @@
 		};
 		0E6B6D201CD764EF0037DBC5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7A8FDFC11EE783B81196C121 /* Pods-LFSGoogleMapsTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = LFSGoogleMapsTests/Info.plist;
@@ -433,6 +607,7 @@
 		};
 		0E6B6D211CD764EF0037DBC5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 74404E6DFEFECD6922E7F447 /* Pods-LFSGoogleMapsTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = LFSGoogleMapsTests/Info.plist;
@@ -445,6 +620,7 @@
 		};
 		0E6B6D231CD764EF0037DBC5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D6676A216FE865EA003019C2 /* Pods-LFSGoogleMapsUITests.debug.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = LFSGoogleMapsUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -456,6 +632,7 @@
 		};
 		0E6B6D241CD764EF0037DBC5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F25B385F82B26365C14A0B30 /* Pods-LFSGoogleMapsUITests.release.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = LFSGoogleMapsUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -484,6 +661,7 @@
 				0E6B6D1E1CD764EF0037DBC5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0E6B6D1F1CD764EF0037DBC5 /* Build configuration list for PBXNativeTarget "LFSGoogleMapsTests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +670,7 @@
 				0E6B6D211CD764EF0037DBC5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0E6B6D221CD764EF0037DBC5 /* Build configuration list for PBXNativeTarget "LFSGoogleMapsUITests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +679,7 @@
 				0E6B6D241CD764EF0037DBC5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
